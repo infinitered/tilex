@@ -38,7 +38,7 @@ defmodule Tilex.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:appsignal, "~> 1.0"},
+      {:appsignal_phoenix, "~> 2.0.0"},
       {:basic_auth, "~> 2.1"},
       {:cachex, "~> 3.1"},
       {:cors_plug, "~> 2.0"},
@@ -50,7 +50,7 @@ defmodule Tilex.Mixfile do
       {:floki, "~> 0.24.0"},
       {:gettext, "~> 0.13"},
       {:guardian, "~> 2.0"},
-      {:hackney, "1.15.2"},
+      {:hackney, "~> 1.17.0"},
       {:html_sanitize_ex, "~> 1.2"},
       {:jason, "~> 1.0"},
       {:optimus, "~> 0.1.0"},
