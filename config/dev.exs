@@ -8,6 +8,7 @@ import Config
 # with brunch.io to recompile .js and .css sources.
 config :tilex, TilexWeb.Endpoint,
   http: [port: System.get_env("PORT") || 4000],
+  url: [scheme: "https", host: "til.s15k.com", port: 443],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
